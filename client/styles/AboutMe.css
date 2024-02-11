@@ -1,0 +1,37 @@
+/* AboutMe.css */
+
+.about-me {
+  text-align: center;
+  padding: 1em;
+}
+
+.about-me h1 {
+  margin-top: 10%;
+  margin-bottom: 1em;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bio img {
+  width: 25%;
+  height: auto;
+  margin-right: 2em; /* Add a right margin to the image */
+}
+
+.bio div {
+  width: 70%;
+}
+
+.bio h2 {
+  text-align: center;
+}
+
+.bio p {
+  text-align: left;
+  margin-bottom: 4%;
+}

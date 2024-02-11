@@ -1,0 +1,20 @@
+/* Resume.css */
+
+#Resume, #Proficiencies {
+  padding-left: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#Proficiencies ul {
+  list-style: none;
+  padding: 0;
+  column-count: 2; /* This will split the list into two columns */
+}
+
+#Proficiencies ul li {
+  margin: 0.5em 0;
+  break-inside: avoid; /* This prevents list items from breaking across columns */
+}

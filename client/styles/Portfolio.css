@@ -1,0 +1,46 @@
+
+h2 {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#portfolio {
+  position: relative; /* Add this */
+  z-index: 1001; /* Add this. Make sure it's higher than the z-index of your header and footer */
+  text-align: center;
+  margin-top: 100px; /* Adjust this value to match your header's height */
+  margin-bottom: 100px; /* Adjust this value to match your footer's height */
+}
+
+#portflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#portflex div {
+  width: 45%;
+  margin: 1em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#portflex img {
+  width: 80%; /* Reduce the width by 20% */
+  height: auto;
+}
+
+#portflex p {
+  margin: 5%;
+}
+
+#portflex div div {
+  display: flex;
+  justify-content: center;
+}
+
+#comingSoon {
+  text-align: center;
+  margin-bottom: 10%;
+}

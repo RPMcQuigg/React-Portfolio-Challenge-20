@@ -1,12 +1,12 @@
+import'../styles/Footer.css'
+
 function Footer() {
   return (
     <footer>
-      <p>&copy; {new Date().getFullYear()} Your Name</p>
+      <p>&copy; {new Date().getFullYear()} Rutter P. McQuigg</p>
       <ul>
-        <li><a href="https://github.com/yourusername">GitHub</a></li>
-        <li><a href="https://linkedin.com/in/yourprofile">LinkedIn</a></li>
-        <li><a href="https://twitter.com/yourusername">Twitter</a></li>
-        {/* Add more social media links if desired */}
+        <li><a href="https://github.com/RPMcQuigg">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/rutter-mcquigg-a691bb222">LinkedIn</a></li>
       </ul>
     </footer>
   );

@@ -13,13 +13,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+a{
+color: #333; /* dark grey */
+  background-color: #f0f0f0; /* light grey */
 }
+
+a {
+  /* Adjust link color to blue */
+  color: #007bff; /* blue */
+}
+
 a:hover {
-  color: #535bf2;
+  /* Adjust link hover color to darker blue */
+  color: #535bf2; /* darker blue */
 }
 
 body {
@@ -56,13 +62,14 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    /* Color and background settings for light mode */
+    color: #213547; /* dark blue */
+    background-color: #ffffff; /* white */
   }
   a:hover {
-    color: #747bff;
+    /* Adjust link hover color to lighter blue */
+    color: #747bff; /* lighter blue */
   }
-  button {
-    background-color: #f9f9f9;
-  }
+  /* Button background color for light mode remains unchanged */
 }
+
