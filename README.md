@@ -3,7 +3,7 @@ This a small portfolio I using react and vite to demonstrate my coding ability. 
 
 ## Instructions
 1. Clone the Repo to your system
-2. Run npm install in the client folder
+2. Run npm install in the Client folder
 3. npm run start
 
 
@@ -12,6 +12,8 @@ This a small portfolio I using react and vite to demonstrate my coding ability. 
 2. Added css and react functions to make the website work.
 3. Small changes to help run Render.
 4. Added README details.
+5. Added Sever.js to help with render upload
+6. Made changes for site to work with Netlify instead of Render.
 
 #### Git Repo
 https://github.com/RPMcQuigg/React-Portfolio-Challenge-20
