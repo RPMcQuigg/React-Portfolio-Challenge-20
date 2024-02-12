@@ -5,7 +5,7 @@ function Resume() {
     <div>
       <div id="Resume">
       <h2>Resume</h2>
-      <a href="../pdf/Resume.pdf">Download Resume</a>
+      <a href="../../pdf/Resume.pdf">Download Resume</a>
       </div>
       <div id="Proficiencies">
       <h3>Proficiencies:</h3>
