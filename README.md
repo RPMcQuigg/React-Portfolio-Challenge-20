@@ -14,6 +14,7 @@ This a small portfolio I using react and vite to demonstrate my coding ability. 
 4. Added README details.
 5. Added Sever.js to help with render upload
 6. Made changes for site to work with Netlify instead of Render.
+7. House cleaning.
 
 #### Git Repo
 https://github.com/RPMcQuigg/React-Portfolio-Challenge-20
